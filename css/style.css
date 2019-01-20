@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: rgba(85,98,112);
+	height: 100vh;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.header {
+	border-bottom: 5px solid rgba(78,205,196);
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color: #fff;
+	font-size: 2.5vh;
+	width: 100%;
+	letter-spacing: 3px;
+	word-spacing: 20px;
+}
+
+.footer {
+	width: 100%;
+	position: absolute;
+	border-top: 5px solid rgba(78,205,196);
+	bottom: 0;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	color: #fff;
+	padding: 7px 0;
+}
+
+.content {
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	height: 80%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.choice {
+	color: #fff;
+	font-size: 5vw;
+	display: flex;
+	justify-content: center;
+	margin: 3.5vh 0;
+}
+
+.choice .game-element {
+	border: 5px solid rgba(78,205,196);
+	color: rgba(78,205,196);
+	border-radius: 50%;
+	padding: 15px;
+	transition: all .2s ease-in-out;
+	margin: 0;
+}
+
+.choice .game-element:nth-child(2) {
+	margin: 0 2vw;
+}
+
+.choice .game-element:hover {
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 34px 7px rgba(199,244,100,1);
+	-moz-box-shadow: 0px 0px 34px 7px rgba(199,244,100,1);
+	box-shadow: 0px 0px 34px 7px rgba(199,244,100,1);
+	background: rgba(199,244,100,1);
+}
+
+h6 {
+	margin: 0;
+}
+
+.round {
+	color: #fff;
+	font-size: 5vh;
+	margin: 0;
+	padding: 0;
+}
+
+.versus {
+	color: #fff;
+	font-size: 9vh;
+	margin: 0;
+	padding: 0;
+	word-spacing: 5vh;
+}
+
+.result {
+	color: #fff;
+	font-size: 9vh;
+	margin: 0;
+	padding: 0;
+	word-spacing: 10vh;
+}
+
+button {
+	background: none;
+	border: 3px solid rgba(78,205,196);
+	color: #fff;
+	font-size: 2vh;
+	padding: 10px 20px;
+	font-weight: bolder;
+	border-radius: 10px;
+	transition: all .2s ease-in-out;
+}
+
+button:hover {
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 34px 7px rgba(199,244,100,1);
+	-moz-box-shadow: 0px 0px 34px 7px rgba(199,244,100,1);
+	box-shadow: 0px 0px 34px 7px rgba(199,244,100,1);
+	background: rgba(199,244,100,1);
+}
+
+#stats {
+	margin-bottom: 10px;
+}
+
